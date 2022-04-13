@@ -592,7 +592,7 @@ function addAttribute(attribute, id) {
 
   const newAttribute = $(`<div class="attribute" id="attribute_${id}">
   <a id="click_${id}" onclick="roll_dice_rep${id}()">
-      <img class="attributeDice" src="./img/dado.png" alt="Dado">
+      <img class="attributeDice" src="./dado.png" alt="Dado">
     </a>
     <h3>${attribute.type}</h3>
     <input type="text" name="appearance" value="${attribute.amount}"  id="attribute_input_${id}" >
