@@ -3,7 +3,7 @@ const data = {
   player: 'Texto',
   occupation: 'Texto',
   age: 'Texto',
-  sex: 'other',
+  sex: 'male',
   birthplace: 'Texto',
   residence: 'Texto',
 
