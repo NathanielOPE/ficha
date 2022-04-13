@@ -22,15 +22,15 @@ const data = {
   },
 
   weapons: [
-    {
-      name: '.38',
-      type: 'Fogo',
-      damage: '2d4',
-      numCurrent: 2,
-      numMax: 2/comp,
-      attack: +5,
-      reach: 'curto',
-      defect: 20/2d,
+ {
+      name: 'Balestra',
+      type: 'Arco',
+      damage: '1d20',
+      numCurrent: 1,
+      numMax: 1,
+      attack: 5,
+      reach: '10 m',
+      defect: 1,
       area: '',
     },
   ],
