@@ -1,11 +1,11 @@
 const data = {
-  name: 'Nome',
-  player: 'jogador',
-  occupation: 'origem',
-  age: 'idade',
+  name: 'Texto',
+  player: 'Texto',
+  occupation: 'Texto',
+  age: 'Texto',
   sex: 'male',
-  birthplace: 'lugar',
-  residence: 'lugar',
+  birthplace: 'Texto',
+  residence: 'Texto',
 
   life: {
     current: 0,
