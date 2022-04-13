@@ -8,17 +8,17 @@ const data = {
   residence: 'lugar',
 
   life: {
-    current: 11,
-    max: 11,
+    current: 0,
+    max: 0,
   },
   sanity: {
-    current: 72,
-    max: 72,
+    current: 0,
+    max: 0,
   },
 
   lifeo: {
-    current: 2,
-    max: 2,
+    current: 0,
+    max: 0,
   },
 
   weapons: [
