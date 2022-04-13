@@ -22,7 +22,28 @@ const data = {
   },
 
   weapons: [
-
+    {
+      name: 'Balestra',
+      type: 'Arco',
+      damage: '1d20',
+      numCurrent: 1,
+      numMax: 1,
+      attack: 5,
+      reach: '10 m',
+      defect: 1,
+      area: '',
+    },
+    {
+      name: 'Canivete',
+      type: 'Briga',
+      damage: '1d10',
+      numCurrent: '',
+      numMax: '',
+      attack: '1/2',
+      reach: '',
+      defect: 1,
+      area: '',
+    },
   ],
   attributes: [
     {
