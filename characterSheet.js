@@ -2,7 +2,7 @@ const data = {
   name: 'Nome',
   player: 'jogador',
   occupation: 'origem',
-  age: idade,
+  age: 'idade',
   sex: 'male',
   birthplace: 'lugar',
   residence: 'lugar',
