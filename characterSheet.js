@@ -521,7 +521,7 @@ function addWeaponToTable(weapon, id) {
             ${weapon.name}
         </td>
         <td>${weapon.type}</td>
-        <td><img onclick="rollDano_${id}()" class="attributeDice" src="./img/dado.png" alt="Dado" style="display: block; margin-left: auto; margin-right: auto; height: 20px; cursor: pointer;">${weapon.damage}</td>
+        <td><img onclick="rollDano_${id}()" class="attributeDice" src="./dado.png" alt="Dado" style="display: block; margin-left: auto; margin-right: auto; height: 20px; cursor: pointer;">${weapon.damage}</td>
         <td><input type="number" value="${weapon.numCurrent}"></td>
         <td>${weapon.numMax}</td>
         <td>${weapon.attack}</td>
