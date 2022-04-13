@@ -3,7 +3,7 @@ const data = {
   player: 'Texto',
   occupation: 'Texto',
   age: 'Texto',
-  sex: 'male',
+  sex: 'other',
   birthplace: 'Texto',
   residence: 'Texto',
 
@@ -702,7 +702,7 @@ function addpericia(pericia, id) {
   <div class="sty${id}">
   <input type="checkbox" id="crazedi${id}" name="crazedi${id}"  value="crazedi${id}" style="width: 80px;" ><label for="crazedi${id}" >Treinado</label>
   </div>
-  <img class="attributeDice" src="./img/dado.png" alt="Dado">
+  <img class="attributeDice" src="./dado.png" alt="Dado">
   </a>
     
     <h3>${pericia.type}</h3>
@@ -736,7 +736,7 @@ function addpericiar(pericia, id) {
 
 
   const newpericiar = $(`<div class="pericia" id="pericia_${id}">
-      <img class="attributeDice" src="./img/dado.png" alt="Dado">
+      <img class="attributeDice" src="./dado.png" alt="Dado">
     </a>
     <h3>${pericia.type}</h3>
     <input type="text" name="appearance" value="${pericia.amount}"  id="pericia_input_${id}" >
