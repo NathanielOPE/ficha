@@ -22,7 +22,15 @@ const data = {
   },
 
   weapons: [
-    
+    name: '.38',
+      type: 'Fogo',
+      damage: '2d4',
+      numCurrent: 2,
+      numMax: 2/comp,
+      attack: +5,
+      reach: 'curto',
+      defect: 20/2d,
+      area: '',
   ],
   attributes: [
     {
